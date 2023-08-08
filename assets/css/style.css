@@ -21,7 +21,7 @@ body {
 
 /* Class Selector & Element Selector*/
 /* Styles header 1 */
-.header-elements h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -34,21 +34,17 @@ body {
 
 /* Class Selectors & Element Selectors */
 /* Places nav link to the top right of page and styles it */
-.header-elements nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-/* No additional styling is given to the unordered list of links */
-.header-elements nav ul {
     list-style-type: none;
 }
 
-/* Sets the links across the nav bar and properly spaces them */
-.header-elements nav ul li {
+/* Sets the ordered list of link names across the nav bar and properly spaces them */
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -106,8 +102,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-/* Styles the benefit content in the box*/
+/* Start work here! */
+/* Styles the benefit words in the box*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
