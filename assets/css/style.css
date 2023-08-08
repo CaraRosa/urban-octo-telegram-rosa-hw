@@ -1,15 +1,17 @@
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-
+/* Element Selector */
 body {
     background-color: #d9dcd6;
 }
 
-
+/* Class Selector */
+/* Styles the Nav bar header 1 and links */
 .header-elements {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,15 +19,21 @@ body {
     color: #ffffff;
 }
 
+/* Class Selector & Element Selector*/
+/* Styles header 1 */
 .header-elements h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* ID Selector */
+/* Sets the letters "seo" to grey */
 #grey-letters {
     color: #d9dcd6;
 }
 
+/* Class Selectors & Element Selectors */
+/* Places nav link to the top right of page and styles it */
 .header-elements nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,24 +42,30 @@ body {
     font-size: 20px;
 }
 
+/* No additional styling is given to the unordered list of links */
 .header-elements nav ul {
     list-style-type: none;
 }
 
+/* Sets the links across the nav bar and properly spaces them */
 .header-elements nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Element Selector */
+/* Styles the nav links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Element Selector */
 p {
     font-size: 16px;
 }
 
+/* ID Selector */
 #first-image {
     height: 800px;
     width: 100%;
@@ -61,22 +75,27 @@ p {
     background-position: center;
 }
 
+/* Class Selectors */
+/* Places the Search Engine Optimization img and the Social Media Marketing img to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Places the Online Reputation Management img to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Sets the placement for the three boxes */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Sets the style and placement for the long side box */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -88,21 +107,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Styles the benefit content in the box*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Styles the benefit content in the box*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Styles the benefit content in the side box */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Class Selectors & Element Selectors */
+/* Styles the headers in the side box */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -118,6 +142,7 @@ p {
     text-align: center;
 }
 
+/* Styles the images in the long box */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -136,6 +161,8 @@ p {
     max-width: 150px;
 }
 
+/* Class Selectors */
+/* Styles the content inside the three boxes */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -163,6 +190,8 @@ p {
     color: #ffffff;
 }
 
+/* Class Selectors and Element Selectors */
+/* Sets the max height of the images in the three boxes */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -175,6 +204,7 @@ p {
     max-height: 200px;
 }
 
+/* Styles the headers and sets the placement in the three boxes */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -190,6 +220,8 @@ p {
     font-size: 36px;
 }
 
+/* Class Selectors */
+/* Styles the footer and centers it */
 .text-center {
     padding: 30px;
     clear: both;
