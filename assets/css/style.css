@@ -66,6 +66,7 @@ a {
 }
 
 /* Element Selector */
+/* Sets the paragraphs to a font-size of 16 pixels */
 p {
     font-size: 16px;
 }
@@ -84,7 +85,7 @@ p {
 }
 
 /* Class Selectors */
-/* Styles the words inside the three boxes and creates the blue boxes*/
+/* Styles the headers and paragraphs inside the three boxes and creates and styles the boxes */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -94,7 +95,7 @@ p {
     color: #ffffff;
 }
 
-/* Sets the placement for the three boxes */
+/* Sets the placement and width for the three boxes */
 .content {
     width: 75%;
     display: inline-block;
@@ -103,26 +104,19 @@ p {
 
 /* Element Selector */
 /* Styles the headers and sets the placement in the three boxes */
-h2 {
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* Class Selectors and Element Selectors */
-/* Sets the max height of the images in the three boxes */
-.search-engine-optimization img {
+/* Sets the max height of the three images in the three boxes */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* Sets the style and placement for the long side box and creates the blue side box */
+/* Class Selector */
+/* creates the blue side box and sets the style and placement for the long side box and */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,28 +128,17 @@ h2 {
     background-color: #2589bd;
 }
 
+/* START WORK HERE! */
 /* Element Selector */
-/* Styles the headers in the side box */
-h3 {
+/* Styles the three headers in the side box */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Class Selectors & Element Selectors */
-/* Styles the images in the side box */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+/* Styles the three images in the side box */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
