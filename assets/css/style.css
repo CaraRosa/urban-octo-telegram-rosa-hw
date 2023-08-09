@@ -19,7 +19,7 @@ body {
     color: #ffffff;
 }
 
-/* Class Selector & Element Selector*/
+/* Class Selector*/
 /* Styles header 1 */
 h1 {
     display: inline-block;
@@ -27,12 +27,12 @@ h1 {
 }
 
 /* ID Selector */
-/* Sets the letters "seo" to grey */
+/* Sets the abbreviation "seo" to grey */
 #grey-letters {
     color: #d9dcd6;
 }
 
-/* Class Selectors & Element Selectors */
+/* Element Selectors */
 /* Places nav link to the top right of page and styles it */
 nav {
     padding-top: 15px;
@@ -49,16 +49,10 @@ li {
     margin-left: 25px;
 }
 
-/* Element Selector */
 /* Styles the nav links */
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-/* Element Selector */
-p {
-    font-size: 16px;
 }
 
 /* ID Selector */
@@ -69,6 +63,11 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Element Selector */
+p {
+    font-size: 16px;
 }
 
 /* Class Selectors */
@@ -84,6 +83,17 @@ p {
     margin-left: 25px;
 }
 
+/* Class Selectors */
+/* Styles the words inside the three boxes and creates the blue boxes*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
 /* Sets the placement for the three boxes */
 .content {
     width: 75%;
@@ -91,7 +101,28 @@ p {
     margin-left: 20px;
 }
 
-/* Sets the style and placement for the long side box */
+/* Element Selector */
+/* Styles the headers and sets the placement in the three boxes */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Class Selectors and Element Selectors */
+/* Sets the max height of the images in the three boxes */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Sets the style and placement for the long side box and creates the blue side box */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,43 +133,16 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Start work here! */
-/* Styles the benefit words in the box*/
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-/* Styles the benefit content in the box*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Styles the benefit content in the side box */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+/* Element Selector */
+/* Styles the headers in the side box */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 /* Class Selectors & Element Selectors */
-/* Styles the headers in the side box */
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Styles the images in the long box */
+/* Styles the images in the side box */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -158,65 +162,14 @@ p {
 }
 
 /* Class Selectors */
-/* Styles the content inside the three boxes */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+/* Styles the information in the side box*/
+.benefit-lead, .benefit-brand, .benefit-cost
+{
+    margin-bottom: 32px;
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Class Selectors and Element Selectors */
-/* Sets the max height of the images in the three boxes */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* Styles the headers and sets the placement in the three boxes */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Class Selectors */
+/* Class Selector */
 /* Styles the footer and centers it */
 .text-center {
     padding: 30px;
@@ -225,6 +178,8 @@ p {
     text-align: center;
 }
 
-.text-center .h4 {
+/* Element Selector */
+/* Sets the header four size */
+h4 {
     font-size: 20px;
 }
