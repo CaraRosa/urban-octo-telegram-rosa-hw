@@ -17,6 +17,11 @@ Below are the screenshots of the webpage shown in my browser:
 
 ![Alt text](./assets/images/websiteImage2.jpg)
 
+## Credits
+
+My peer Andrew Tullos was able to help me make the Search Engine Optimization link work appropriately when the user clicked on it. At his suggestion, I assigned an id to the section element. The code is located in index.html in my repository on line 34. Code: “id="search-engine-optimization"
+
+
 ## License
 
 No license necessary.
