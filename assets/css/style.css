@@ -11,7 +11,7 @@ body {
 }
 
 /* Class Selector */
-/* Styles the Nav bar header 1 and links */
+/* Styles the Nav bar header 1 and links and applies padding */
 .header-elements {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,20 +20,24 @@ body {
 }
 
 /* Class Selector*/
-/* Styles header 1 */
-h1 {
+/* Sets the font-size for the header 1 and sets the three link titles inside the NavBar */
+.header-elements h1 {
     display: inline-block;
     font-size: 48px;
+    
 }
 
 /* ID Selector */
-/* Sets the abbreviation "seo" to grey */
+/* Sets the abbreviation "seo" to a grey color*/
 #grey-letters {
     color: #d9dcd6;
 }
 
 /* Element Selectors */
-/* Places nav link to the top right of page and styles it */
+/* Places nav link to the top right of page with correct spacing and margin */
+/* Font and font-size are applied to the link titles */
+/* Floats image to the right inside the NavBar */
+/* Gets rid of the bullet points on the link titles */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,13 +53,17 @@ li {
     margin-left: 25px;
 }
 
-/* Styles the nav links */
+/* Sets the color to white and gets rid of the underlined style applied to the link titles */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
 /* ID Selector */
+/* Sets the height and width of the image and gives space between the image and body */
+/* Sets a background image with the link */
+/* Sets the background image to the appropriate size of the background */
+/* Centers the background image */
 #first-image {
     height: 800px;
     width: 100%;
@@ -72,20 +80,21 @@ p {
 }
 
 /* Class Selectors */
-/* Places the Search Engine Optimization img and the Social Media Marketing img to the left */
+/* Places the Search Engine Optimization image and the Social Media Marketing image to the left with an appropriate margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* Places the Online Reputation Management img to the right */
+/* Places the Online Reputation Management image to the right with an appropriate margin*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
 /* Class Selectors */
-/* Styles the headers and paragraphs inside the three boxes and creates and styles the boxes */
+/* Styles the headers and paragraphs inside the three boxes with appropriate margin and padding */
+/* Creates and styles the boxes */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -103,7 +112,7 @@ p {
 }
 
 /* Element Selector */
-/* Styles the headers and sets the placement in the three boxes */
+/* Styles the headers and puts space between headers and paragraph */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -116,7 +125,11 @@ p {
 }
 
 /* Class Selector */
-/* creates the blue side box and sets the style and placement for the long side box and */
+/* Creates the blue side box */
+/* Sets the style and placement for the paragraphs inside the box */
+/* Sets certain elements below other elements */
+/* Set the placement of the box with its contents to the right */
+/* Styles the headers and paragraphs with proper font*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -130,7 +143,7 @@ p {
 
 /* START WORK HERE! */
 /* Element Selector */
-/* Styles the three headers in the side box */
+/* Styles the three headers in the side box and centers the headers */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -145,7 +158,7 @@ p {
 }
 
 /* Class Selectors */
-/* Styles the information in the side box*/
+/* Styles the information in the side box and gives an appropriate margin*/
 .benefit-lead, .benefit-brand, .benefit-cost
 {
     margin-bottom: 32px;
@@ -153,7 +166,9 @@ p {
 }
 
 /* Class Selector */
-/* Styles the footer and centers it */
+/* Styles the footer with font and centers the text */
+/* Sets the second element below the first element */
+/* Adds space between the body and footer */
 .text-center {
     padding: 30px;
     clear: both;
