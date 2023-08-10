@@ -14,7 +14,7 @@ Improving accessibility allows for a larger number of variable users.
 
 ## Installation
 
-No installation necessary. Here is the link to the website: [Link text]()
+No installation necessary. Here is the link to the website: [Link text](https://cararosa.github.io/urban-octo-telegram-rosa-hw/)
 Below are the screenshots of the webpage shown in my browser:
 ![Alt text](./assets/images/websiteImage1.jpg)
 
